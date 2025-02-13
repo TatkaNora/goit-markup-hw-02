@@ -3,7 +3,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
-    color: #2e2f42;
+    color: #434455;
 }
 
 a {
@@ -32,11 +32,12 @@ ul, ol {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;       
+        text-transform: uppercase;
+        color: #4d5ae5;     
 }
 
-.header-logo span{
-    color: #4d5ae5;
+.header-logo .header-logo-span{
+    color: #2e2f42;
 }
 
 .header-nav-title {
@@ -47,8 +48,19 @@ ul, ol {
     color: #2e2f42;
 }
 
+.header-nav-title:hover {
+    color: #404bbf;
+}
+
+.header-nav-title:focus {
+    color: #404bbf;
+}
+
+.header-address {
+       font-style: normal; 
+}
+
 .header-address-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -56,32 +68,43 @@ ul, ol {
     color: #434455;
 }
 
+.header-address-link:hover {
+    color: #404bbf;
+}
+
+.header-address-link:focus {
+    color: #404bbf;
+}
 /* #endregion*/
 
 /* #region section hero */
+.section-hero {
+    background-color: #2e2f42;  
+}
 
-.section-hero h1 {
+.section-hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
-    background-color: #2e2f42;
+    color: #fff;   
 }
 
-.section-hero button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+.section-hero-button {
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
+.section-hero-button:hover,
+.section-hero-button:focus {
+    background-color: #404BBF;
+}
+
 /* #endregion */
 
 /* #region services section */
@@ -114,8 +137,5 @@ ul, ol {
 .section-team .section-list{ 
     text-align: center;
 }
-.section-portfolio .section-list img {
-    width:360;
-    height:300
-}
+
 /* #endregion */
