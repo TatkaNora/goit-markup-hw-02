@@ -109,7 +109,7 @@ ul, ol {
 
 /* #region services section */
 
-.servises-section-list-h3{
+.servises-section-list-h{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -141,7 +141,7 @@ ul, ol {
 .section-title-head {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -149,12 +149,23 @@ ul, ol {
 }
 
 .team-section-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
 .team-section-p {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
+
 .portfolio-section-h {
     font-weight: 500;
     font-size: 20px;
@@ -171,3 +182,31 @@ ul, ol {
     color: #434455;
 }
 /* #endregion */
+
+/* #region footer */
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-style {
+    color: #f4f4fd;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+ /* #endregion */
