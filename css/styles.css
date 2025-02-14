@@ -109,21 +109,16 @@ ul, ol {
 
 /* #region services section */
 
-.servises-section-list h3{
+.servises-section-list-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
-.section-list h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.section-list p{
+.servises-section-list-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -134,8 +129,25 @@ ul, ol {
 /* #endregion */
 
 /* #region team section */
+.section-team {
+    background-color: #F4F4FD;
+}
+
 .section-team .section-list{ 
+    background-color: #FFFFFF;
     text-align: center;
+}
+
+.section-title-h2 {
+    text-transform: capitalize;
+}
+
+.team-section-h3 {
+    color: #2e2f42;
+}
+
+.team-section-p {
+    font-size: 16px;
 }
 
 /* #endregion */
